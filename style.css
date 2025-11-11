@@ -1,0 +1,18 @@
+h2{
+    color: aqua;
+
+}
+p{
+    color: blue;
+    text-align: center;
+    
+}
+.par{
+    color: rgb(105, 44, 161,1);
+    background-color: aqua;
+    text-align: inherit;
+}
+#abhi{
+    color: rgb(255, 0, 128);
+    
+} 
