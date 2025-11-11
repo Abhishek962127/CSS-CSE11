@@ -5,12 +5,12 @@ h2{
 p{
     color: blue;
     text-align: center;
-    
+     background-color: rgb(237, 243, 243);
 }
 .par{
-    color: rgb(105, 44, 161,1);
-    background-color: aqua;
-    text-align: inherit;
+    color: #d2df15;
+   
+    text-align:right ;
 }
 #abhi{
     color: rgb(255, 0, 128);
