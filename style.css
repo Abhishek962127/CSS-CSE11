@@ -1,4 +1,4 @@
-h2{
+ /* h2{
     color: aqua;
 
 }
@@ -6,6 +6,7 @@ p{
     color: blue;
     text-align: center;
      background-color: rgb(237, 243, 243);
+     front-size:25px;
 }
 .par{
     color: #d2df15;
@@ -16,3 +17,61 @@ p{
     color: rgb(255, 0, 128);
     
 } 
+h1{
+    color: blue;
+} */
+/* div{
+
+    height: 200px;
+    width: 200px;
+    color: red;
+    background-color: cadetblue;
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+    margin:  100px;
+    border: 1px double red;
+    display: inline-table;
+    .box box1{
+    align-items: center;
+     display: inline-block;
+}
+.boxbox2{
+    align-items: center;
+     display: inline-block;
+}
+.boxbox3{
+    align-items: center;
+     display: inline-block; */
+
+/* .container{
+    align-items: center;
+    display:inline-block ;
+
+} */
+/* .box{
+    background-color: red;
+    color: green;
+    display: inline-block;
+}
+.box1{
+    background-color: #d2df15;
+    display: block;
+    width: 300px;
+} */
+img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+p{float: right;
+}
+div{
+    background-color: palevioletred;
+    margin: 0px;
+    padding: 20px;
+}
+.clear{
+    clear: both;
+}
+
