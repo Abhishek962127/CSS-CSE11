@@ -1,4 +1,4 @@
-@media(min-width:1200px){
+/* @media(min-width:1200px){
    p{font-size:25px;
 background-color: blue;} 
 }
@@ -6,12 +6,10 @@ background-color: blue;}
     width: 100%;
     height: 100px;
     background-color: green;
-}
-@media(min-width:1024px){
-    .box{
-        background-color: red;
-    }
-}
+} */
+/* @media(max-width:768px){
+    
+
 li{
     list-style: none;
     text-decoration: none;
@@ -19,9 +17,11 @@ li{
 }
 nav ul{
     display: flex;
+    flex-direction:column ;
     justify-content: space-around;
 }
-@media(min-width: 768px){
+} */
+/* @media(min-width: 768px){
     div{
         align-content: center;
         justify-content: center;
@@ -43,31 +43,45 @@ nav ul{
     a{
         width: 10px;
         height: 20px;
-    }
-div{
+    } */
+   body{
+    margin: 0px;
+   }
 
-    height: 200px;
+   nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 1rem;
+   }
+.logo{
+    color: #fff;
+    font-size:1.5rem ;
+}
+.menu{
+    background: #444;
+    position: absolute;
+    top: 60px;
     width: 200px;
-    color: red;
-    background-color: cadetblue;
-    text-align: center;
-    align-content: center;
-    padding: 30px;
-    margin:  100px;
-    border: 1px double red;
-    display: inline-blockgi;}
-    .box box1{
-    align-items: center;
-     display: inline-block;
-     background-color: red;
-     }
-.boxbox2{
-    align-items: center;
-     display: inline-block;
 }
-.boxbox3{
-    align-items: center;
-     display: inline-block;
+.menu a{
+    color: #fff;
+
+    padding: 1em;
+    text-decoration: none;
+    display: block;
 
 }
+.hambuger{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+@media(min-width:768px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
 }
