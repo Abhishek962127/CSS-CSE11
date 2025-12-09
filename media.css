@@ -45,7 +45,8 @@ nav ul{
         height: 20px;
     } */
    body{
-    margin: 0px;
+    margin: 0;
+    font-family: Arial, sans-serif;
    }
 
    nav{
@@ -60,21 +61,23 @@ nav ul{
     font-size:1.5rem ;
 }
 .menu{
+    display: none;
+    flex-direction:column ;
     background: #444;
     position: absolute;
     top: 60px;
     width: 200px;
+   right: 20px;
 }
 .menu a{
     color: #fff;
-
     padding: 1em;
     text-decoration: none;
     display: block;
 
 }
 .hambuger{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #fff;
     cursor: pointer;
 }
@@ -83,5 +86,9 @@ nav ul{
         display: flex;
         flex-direction: row;
         position: static;
+        background: none;
+    }
+    .hambuger{
+        display: none;
     }
 }
